@@ -2,7 +2,6 @@
 
 ## Overview
 This is a React component that implements a simple To-Do List using props. It allows users to create, read, update, and delete (CRUD) tasks efficiently.
-I have attempted to make the code as clean as possible with the knowledge I currently possess.
 
 ## Features
 - **Create**: Add new tasks to the to-do list.
@@ -15,6 +14,19 @@ Ensure you have Node.js and React installed. Then, clone this repository and ins
 
 ```sh
 npm install
+```
+
+## Running the Application
+To start the application, run:
+
+```sh
+npm start
+```
+
+Then, open your browser and go to:
+
+```
+http://localhost:3000
 ```
 
 ## Usage
@@ -41,5 +53,7 @@ export default App;
 - **Editing a Task**: Click the edit button next to a task, modify the text, and save it.
 - **Deleting a Task**: Click the delete button next to a task to remove it from the list.
 - **Marking as Completed**: Click the checkbox next to a task to mark it as completed or incomplete.
+
+
 
 
